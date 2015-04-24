@@ -9,7 +9,8 @@ for (var i = 0; i<limit; i++){
     if (i % 3 == 0 || i % 5 == 0) {
         sum += i;
     }
-}```
+}
+```
 
 #2.
 
@@ -26,4 +27,5 @@ while (firstFib <= 4000000) {
     if (firstFib % 2 == 0) {
         sum += firstFib
     }
-}```
+}
+```
