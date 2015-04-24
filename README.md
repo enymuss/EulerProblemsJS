@@ -10,3 +10,16 @@ for (var i = 0; i<limit; i++){
     }
 }
 #2.
+var sum = 0;
+var firstFib = 1
+var secondFib = 2
+
+while (firstFib <= 4000000) {
+    var tempSum = firstFib + secondFib
+    var firstFib = secondFib
+    var secondFib = tempSum
+    
+    if (firstFib % 2 == 0) {
+        sum += firstFib
+    }
+}
