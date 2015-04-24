@@ -10,7 +10,9 @@ for (var i = 0; i<limit; i++){
         sum += i;
     }
 }```
+
 #2.
+
 ```javascript
 var sum = 0;
 var firstFib = 1
